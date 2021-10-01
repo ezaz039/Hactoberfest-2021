@@ -12,6 +12,6 @@ int lengthOfLIS(vector<int>& nums) {
     return vec.size();
 }
 int main() {
-  vector<int> arr{10, 22, 9, 33, 21, 50, 41, 60};
+  vector<int> arr{10, 22, 9, 33, 21, 50, 41, 60, 80, 70, 55, 29, 100};
   cout << lengthOfLIS(arr) << endl;
 }
