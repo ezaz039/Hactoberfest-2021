@@ -18,7 +18,7 @@ int maxSum(int arr[], int n, int k)
 }
 int main()
 {
-	int arr[] = { 1, 4, 2, 10, 2, 3, 1, 0, 20 };
+	int arr[] = { 1, 4, 2, 10, 2, 3, 1, 0, 20, 32 };
 	int k = 4;
 	int n = sizeof(arr) / sizeof(arr[0]);
 	cout << maxSum(arr, n, k);
