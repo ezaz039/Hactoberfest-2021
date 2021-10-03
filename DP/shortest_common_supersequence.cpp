@@ -19,9 +19,6 @@ int shortestSuperSequence(char* X, char* Y)
 
 	// find lcs
 	int l = lcs(X, Y, m, n);
-
-	// Result is sum of input string
-	// lengths - length of lcs
 	return (m + n - l);
 }
 
