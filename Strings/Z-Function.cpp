@@ -1,8 +1,3 @@
-/*
-Problem Statement:- 
-	You are given two string a pattern(p) and a text(t) you want to find out
-	the number of occurrances of the pattern in text
-*/
 
 #include<iostream>
 #include<vector>
