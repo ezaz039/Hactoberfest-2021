@@ -11,7 +11,6 @@ struct Graph
     int V, E;
     struct edge *e;
 };
-
 struct Graph *create(int V, int E)
 {
     struct Graph *g = new Graph;
