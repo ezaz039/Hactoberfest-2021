@@ -25,8 +25,6 @@ public:
                 }
                 // swap i and g_idx
                 swap_no(nums[i], nums[g_idx]);
-                
-                //sort the rest
                 vector<int>::iterator it = nums.begin();
                 advance(it, i+1);
                 sort(it, nums.end());
