@@ -5,7 +5,6 @@ struct edge
 {
     int u, v, w;
 };
-
 struct Graph
 {
     int V, E;
