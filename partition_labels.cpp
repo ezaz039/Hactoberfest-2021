@@ -4,7 +4,6 @@ public:
         unordered_map<char,int> hash;
         for(int i=0;i<s.length();i++)
             hash[s[i]] = i;
-
         int l = 0,r=0;
         vector<int> result;
         while(r < s.length()){
