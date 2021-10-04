@@ -14,7 +14,6 @@ public:
             else if(nums[mid]<target){
                 low=mid+1;
             }
-
         }
         return -1;
     }
