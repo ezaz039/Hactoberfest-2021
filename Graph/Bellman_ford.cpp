@@ -19,7 +19,6 @@ struct Graph *create(int V, int E)
     g->e = new edge[E];
     return g;
 };
-
 void ford(struct Graph *g, int S)
 {
     int V = g->V;
