@@ -12,5 +12,6 @@ int main()
         sum *= 2;
         sum %= MOD;
     }
+    
     cout << sum << endl;
 }
