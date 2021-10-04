@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int count(int S[], int m, int n)
 {
 	if (n == 0)
