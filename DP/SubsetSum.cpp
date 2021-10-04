@@ -11,6 +11,7 @@ bool isSubsetSum(int set[], int n, int sum)
 	return isSubsetSum(set, n - 1, sum)
 		|| isSubsetSum(set, n - 1, sum - set[n - 1]);
 }
+
 int main()
 {
 	int set[] = { 3, 34, 4, 12, 5, 2 };
