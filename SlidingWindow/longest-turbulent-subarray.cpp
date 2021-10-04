@@ -4,7 +4,6 @@ public:
     {
         int n=a.size();
         int cnt=1, ans=1;
-        
         for(int i=0;i<n-1;i++)
         {
             if(a[i] < a[i+1])
