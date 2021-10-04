@@ -21,7 +21,6 @@ vector<int> z_function(string &p,string &t)
 	}
 	return z;
 }
-
 int main()
 {
 	string p,t;
