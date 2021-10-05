@@ -10,7 +10,7 @@ public:
 
         for (auto it {s.begin()}; it != s.end(); it++) {
             if (brackets.empty() || brackets.top() != brackets_pair[*it])
-                brackets.push(*it);
+                brackets.push(*it);   
             else if (!brackets.empty() && brackets.top() == brackets_pair[*it]) 
                 brackets.pop();
             else return false;
