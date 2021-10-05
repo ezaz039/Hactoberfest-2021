@@ -10,12 +10,12 @@ public:
 
         for (auto it {s.begin()}; it != s.end(); it++) {
             if (brackets.empty() || brackets.top() != brackets_pair[*it])
-                brackets.push(*it); //push new bracket to the stack
+                brackets.push(*it);
             else if (!brackets.empty() && brackets.top() == brackets_pair[*it]) 
-                brackets.pop(); //remove the bracket from the stack if pair found
+                brackets.pop();
             else return false;
         }
         
-        return brackets.empty(); //if statck size > 0 means there are brackets without a pair
+        return brackets.empty();
     }
 };
