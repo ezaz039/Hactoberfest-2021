@@ -5,13 +5,11 @@ struct edge
 {
     int u, v, w;
 };
-
 struct Graph
 {
     int V, E;
     struct edge *e;
 };
-
 struct Graph *create(int V, int E)
 {
     struct Graph *g = new Graph;
@@ -21,7 +19,6 @@ struct Graph *create(int V, int E)
     g->e = new edge[E];
     return g;
 };
-
 void ford(struct Graph *g, int S)
 {
     int V = g->V;

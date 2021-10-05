@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int count(int S[], int m, int n)
 {
 	if (n == 0)
@@ -12,6 +11,7 @@ int count(int S[], int m, int n)
 	return count(S, m - 1, n) +
 		count(S, m, n - S[m - 1]);
 }
+
 int main()
 {
 	int i, j;

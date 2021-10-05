@@ -1,12 +1,6 @@
-/*
-Problem Statement:- 
-	You are given two string a pattern(p) and a text(t) you want to find out
-	the number of occurrances of the pattern in text
-*/
 
 #include<iostream>
 #include<vector>
-
 using namespace std;
 
 vector<int> z_function(string &p,string &t)
@@ -27,7 +21,6 @@ vector<int> z_function(string &p,string &t)
 	}
 	return z;
 }
-
 int main()
 {
 	string p,t;
