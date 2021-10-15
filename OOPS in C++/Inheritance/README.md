@@ -4,7 +4,7 @@
 * In C++, the class which inherits the members of another class is called derived class and the class whose members are inherited is called base class. 
 * The derived class is the specialized class for the base class.
 
-<img alt="inheritance" src="InheritanceImg.jpg" />
+<img alt="inheritance" src="InheritanceImg.png" />
 
 ## Advantage of C++ Inheritance
 * <b>Code reusability:</b> Now you can reuse the members of your parent class. 
