@@ -1,9 +1,7 @@
+
 # Encapsulation
 * Hiding “sensitive” data from the user. 
 * Encapsulation is achieved in C++ using Classes.
-
-
-<img align="right" alt="encapsulation" src="./EncapsulationImg.jpg" />
 
 #### Classes have two main components:
 * Data Members
@@ -17,6 +15,9 @@
 * Public: Class objects can access the data members and function outside the class.
 * Private: Objects cannot access the data members and function outside the class. These members can only be accessed inside the class.
 * Protected: Objects cannot access the data members and function outside the class. These members can be accessed inside the class and inherited class.
+
+<img alt="encapsulation" src="./EncapsulationImg.jpg" />
+
 
 ## Advantages of Encapsulation:
 -	Good coding practice, useful in interviews
