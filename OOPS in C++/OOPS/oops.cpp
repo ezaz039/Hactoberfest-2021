@@ -1,7 +1,6 @@
 //* Don't Burn Your Opportunities just for Temporary Happiness
 #include<iostream>
 using namespace std;
-
 class student{
     private:
     string name;
