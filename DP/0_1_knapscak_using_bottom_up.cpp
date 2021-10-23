@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int KnapSack_recursion(int val[], int wt[], int W, int n)
 {
     vector<vector<int>> t(n + 1, vector<int>(W + 1));
